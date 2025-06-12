@@ -1,11 +1,11 @@
-export default function handler(req, res) {
+// api/fortune.js
+
+export default function handler(_, res) {
   const fortunes = [
     "Você terá uma surpresa agradável em breve.",
     "Grandes oportunidades estão à sua frente.",
-    "Um novo começo trará grande sucesso.",
     "A sorte favorece os corajosos.",
     "Boas notícias estão chegando.",
-    "A vida trará coisas boas se tiver paciência.",
     "Seja a mudança que você quer ver no mundo.",
     "Cada passo conta para o seu sucesso.",
     "O melhor ainda está por vir.",
